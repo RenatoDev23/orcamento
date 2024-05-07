@@ -1,7 +1,7 @@
 # projeto<h1 align="center"> Orçamento </h1>
 
 <p align="center">
-  <img alt="projeto Devlinks" src="/final.jpeg">
+  <img alt="projeto Devlinks" src="img/final.jpeg">
 </p>
 
 <br>
