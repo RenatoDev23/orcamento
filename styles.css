@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/marmore.jpg');
+    background-size: cover;
+    
+}
+
+.container {
+    max-width: 700px;
+    margin: 2px auto;
+    padding: 25px;
+    border: 3px solid #505050;
+    border-radius: 5px;
+}
+#nome{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d1b202;
+    color: #ffffff;
+    border-color: rgb(218, 218, 218);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #b4b4b4;
+    color: black;
+}
+
+#resultado {
+    padding: -10px;
+    background-color: #f4f4f4;
+    border: 1px solid #c4d108;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}

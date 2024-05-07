@@ -1,0 +1,10 @@
+package appOrcamento;
+
+public class OrcamentoMarmorizacao {
+	
+	public static double calcularTamanhoParede() {
+		Scanner scanner = new Scanner(System.in); 
+		
+	}
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento de Marmorização</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <hr>
+        <h1>Orçamento de Marmorização de Parede</h1>
+        <form id="orcamentoForm">
+            <label for="nome">Nome do cliente:</label>
+            <input type="text" id="nome"name="nome" required>
+            <label for="largura">Largura da Parede (metros):</label>
+            <input type="number" id="largura" name="largura" required>
+            <label for="altura">Altura da Parede (metros):</label>
+            <input type="number" id="altura" name="altura" required>
+            <label for="tipoMarmorizacao">Tipo de Marmorização:</label>
+            <select id="tipoMarmorizacao" name="tipoMarmorizacao" required>
+                <option value="Simples">Simples</option>
+                <option value="Intermediaria">Intermediária</option>
+                <option value="Complexa">Complexa</option>
+            </select>
+            <label for="fotos">Fotos do Trabalho (opcional, selecione múltiplas fotos):</label>
+            <input type="file" id="fotos" name="fotos" multiple accept="image/*">
+            
+            
+            <button type="submit">Calcular Orçamento</button>
+        </form>
+       
+        <div id="resultado"></div>
+        <div id="fotosDiv"></div>
+        <div id="botoesEnviar" style="display: none;">
+            <div id="telefoneDiv" style="display: none;">
+                <label for="telefone">Número de Telefone (para WhatsApp):</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite o número de telefone">
+            </div>
+            <br>
+                       
+            <button id="imprimir">Salvar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
